@@ -49,11 +49,11 @@ function autoResize(){
 	console.log(wH);
 	if (wH < 768) {
 		x.style.transformOrigin = "0 100%";
-		x.style.transform = "scale(0.35)";
+		x.style.transform = "scale(0.3)";
 	}
 	else{
 		x.style.transformOrigin = "0 100%";
-		x.style.transform = "scale(1)";
+		x.style.transform = "scale(0.76)";
 	}
 
 }
